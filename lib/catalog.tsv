@@ -1,0 +1,35 @@
+# id|group|name|role|adapter|package|command|app|bundle|upstream|dependencies|homepage
+xcode_clt|기본 도구|Xcode Command Line Tools|빌드 기반 도구|clt|-|-|-|-|-|-|https://developer.apple.com/download/all/
+homebrew|기본 도구|Homebrew|패키지 관리|brew_bootstrap|-|brew|-|-|Homebrew/brew|xcode_clt|https://brew.sh/
+git|기본 도구|Git|버전 관리|formula|git|git|-|-|-|homebrew|https://git-scm.com/
+github_cli|기본 도구|GitHub CLI|GitHub CLI|formula|gh|gh|-|-|-|homebrew|https://cli.github.com/
+oh_my_zsh|기본 도구|Oh My Zsh|셸 구성|omz|-|-|-|-|ohmyzsh/ohmyzsh|git|https://ohmyz.sh/
+nvm|Node.js 관리|nvm|Node 버전 관리자만 설치|nvm|-|-|-|-|nvm-sh/nvm|-|https://github.com/nvm-sh/nvm
+mamba|Python 관리|Miniforge / mamba|Python 환경 관리|mamba|-|mamba|-|-|conda-forge/miniforge|-|https://github.com/conda-forge/miniforge
+vscode|개발 앱|VS Code|IDE|cask|visual-studio-code|code|Visual Studio Code.app|com.microsoft.VSCode|-|homebrew|https://code.visualstudio.com/
+cursor|개발 앱|Cursor|IDE|cask|cursor|cursor|Cursor.app|com.todesktop.230313mzl4w4u92|-|homebrew|https://cursor.com/
+kiro|개발 앱|Kiro|IDE|cask|kiro|kiro|Kiro.app|dev.kiro.desktop|-|homebrew|https://kiro.dev/
+dbeaver|개발 앱|DBeaver|DB 클라이언트|cask|dbeaver-community|-|DBeaver.app|org.jkiss.dbeaver.core.product|-|homebrew|https://dbeaver.io/
+postman|개발 앱|Postman|API 클라이언트|cask|postman|-|Postman.app|com.postmanlabs.mac|-|homebrew|https://www.postman.com/downloads/
+redis_insight|개발 앱|Redis Insight|Redis 클라이언트|cask|redis-insight|-|Redis Insight.app|org.RedisLabs.RedisInsight-V2,com.electron.redisinsight|-|homebrew|https://redis.io/insight/
+chatgpt|AI 도구|ChatGPT|데스크톱 앱|cask|chatgpt|-|ChatGPT.app|com.openai.chat,com.openai.codex|-|homebrew|https://chatgpt.com/download/
+codex|AI 도구|Codex|데스크톱 앱|cask|codex-app|-|Codex.app|com.openai.codex|-|homebrew|https://developers.openai.com/codex/app/
+codex_cli|AI 도구|Codex CLI|코딩 CLI|cask|codex|codex|-|-|-|homebrew|https://developers.openai.com/codex/cli/
+claude|AI 도구|Claude|데스크톱 앱|cask|claude|-|Claude.app|com.anthropic.claudefordesktop|-|homebrew|https://claude.ai/download
+claude_code|AI 도구|Claude Code|코딩 CLI|cask|claude-code|claude|-|-|-|homebrew|https://code.claude.com/docs/en/setup
+gemini_cli|AI 도구|Gemini CLI|코딩 CLI|formula|gemini-cli|gemini|-|-|-|homebrew|https://github.com/google-gemini/gemini-cli
+opencode|AI 도구|OpenCode|코딩 CLI|formula|opencode|opencode|-|-|-|homebrew|https://opencode.ai/docs/
+kiro_cli|AI 도구|Kiro CLI|코딩 CLI|cask|kiro-cli|kiro-cli|-|-|-|homebrew|https://kiro.dev/docs/cli/
+ollama|AI 도구|Ollama|로컬 모델 실행 CLI|formula|ollama|ollama|-|-|-|homebrew|https://ollama.com/
+hermes|AI 도구|Hermes|에이전트 앱|manual|-|hermes|Hermes.app|com.nousresearch.hermes.setup|-|-|https://hermes-agent.nousresearch.com/
+orca|AI 도구|Orca|에이전트 앱|orca|-|-|Orca.app|com.stablyai.orca|stablyai/orca|-|https://www.onorca.dev/docs/install
+cua_driver|AI 도구|CuaDriver|컴퓨터 제어 도구|cua_app|-|cua-driver|CuaDriver.app|com.trycua.driver|trycua/cua|-|https://cua.ai/docs/how-to-guides/driver/install
+kubectl|Kubernetes|kubectl|클러스터 관리|formula|kubernetes-cli|kubectl|-|-|-|homebrew|https://kubernetes.io/docs/reference/kubectl/
+helm|Kubernetes|Helm|애플리케이션 배포|formula|helm|helm|-|-|-|homebrew|https://helm.sh/docs/
+k9s|Kubernetes|K9s|터미널 운영 UI|formula|k9s|k9s|-|-|-|homebrew|https://k9scli.io/
+krew|Kubernetes|Krew|플러그인 관리|krew|-|kubectl-krew|-|-|kubernetes-sigs/krew|git,kubectl|https://krew.sigs.k8s.io/docs/user-guide/setup/install/
+cnpg|Kubernetes|cnpg|PostgreSQL 운영|cnpg|-|kubectl-cnpg|-|-|-|kubectl,krew|https://cloudnative-pg.io/docs/1.28/kubectl-plugin/
+ncp_iam_authenticator|Kubernetes|ncp-iam-authenticator|클라우드 인증|ncp|-|ncp-iam-authenticator|-|-|NaverCloudPlatform/ncp-iam-authenticator|-|https://github.com/NaverCloudPlatform/ncp-iam-authenticator
+docker|컨테이너|Docker Desktop|컨테이너 실행|dmg_app|docker-desktop|docker|Docker.app|com.docker.docker|-|-|https://docs.docker.com/desktop/setup/install/mac-install/
+terraform|인프라 코드 관리|Terraform|인프라 코드 관리|terraform|-|terraform|-|-|-|-|https://developer.hashicorp.com/terraform/install
+logcli|로그·관측성|LogCLI|Loki 로그 조회|formula|logcli|logcli|-|-|-|homebrew|https://grafana.com/docs/loki/latest/query/logcli/
